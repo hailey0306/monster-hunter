@@ -1,0 +1,33 @@
+.form-label {
+	display: inline-block;
+	width: 6em;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 1em;
+}
+
+.form-input {
+	border-width: 0;
+	border-bottom: 1px solid black;
+	font-family: inherit;
+	font-size: inherit;
+	display: inline-block;
+	outline: 0;
+}
+.form-button {
+	border:1px solid black;
+	padding: 0.4em 0.6em;
+	font-family: inherit;
+	font-size: inherit;
+	border-radius: 10px;
+	margin-top: 0.5em;
+	display: block;
+	width:100%;
+}
+
+.centered-child {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}

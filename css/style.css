@@ -1,0 +1,381 @@
+body {
+	font-family: 'Skia', sans-serif;
+	background-color: white;
+	background-repeat: none;
+	background-attachment: fixed;
+}
+
+header,footer {
+	position: fixed;
+	z-index: 4;
+}
+
+@font-face {
+font-family: 'Skia';
+font-style: normal;
+font-weight: normal;
+src: local('Skia'), url('.../fonts/ufonts.com_skia.woff') format('woff');
+}
+
+
+h1{
+font-family: 'Skia';
+
+}
+
+
+
+
+#back {
+	color: #22bdf4;
+	font-weight: 900;
+}
+
+
+#my-selection select,#my-selection2 select {
+	font-family: 'skia', sans-serif;
+	position: absolute;
+	left: 20px;
+	width: 85%;
+	font-size: 1em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #ddd;
+	-webkit-appearance: none;
+	-moz-appearance : none;
+	border:1px solid #ccc;
+	padding: 0.4em 0.6em;
+	text-align:center;
+	text-align-last: center;
+}
+
+#my-selection select option, #my-selection2 select option{
+	background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	-moz-appearance: none;
+	position: absolute;
+	white-space: nowrap;
+	cursor: pointer;
+	margin-top: none;
+	color: rgba(55, 55, 55);
+	font-size: 1em;
+	font-family: 'skia', sans-serif;
+	width: 80%;
+	text-align: left;
+}
+
+#my-selection2 textarea, #new-confession{
+	border: 1px solid grey;
+	font-size: 1em;
+}
+
+.modal-content .form-button {
+	background: #9b87ed;
+	border: none;
+	color: white;
+	margin-top: 1em;
+	display: block;
+	color: white;
+	background-color: #9b87ed;
+	background-image: linear-gradient(to right, #9b87ed, #9b87ed);
+	border-radius: 20px;
+	width:100%;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+
+.modal-content .form-input {
+	border-radius: none;
+	border-bottom: 1px solid rgba(255, 255, 255);
+}
+
+
+#login-page {
+		background: linear-gradient(#71e2cd, #22bdf4, #9b87ed);
+}
+
+#sign-in, #save, #savereset{
+	margin-top: 1em;
+	display: block;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #71e2cd, #7FE5C3);
+	width:100%;
+	padding: 0.5em;
+	font-size: 1em;
+}
+
+.home-image {
+	position: absolute;
+	top:25%;
+	left:50%;
+	transform: translate(-50%,-25%);
+}
+
+.profile-form, .password-form  {
+	margin: 0 2em;
+}
+
+
+.profile-form .form-label, .password-form .form-label {
+	text-align: left;
+	padding: 0;
+	width: 100%;
+	font-weight: 200;
+	font-size: 0.8em;
+
+}
+
+.profile-form .form-input, .password-form .form-input {
+	margin-top: 0;
+	border-width: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	font-family: inherit;
+	font-size: inherit;
+	display: inline-block;
+	outline: 0;
+	text-align: left;
+	background-color: transparent;
+	padding: 0;
+	padding-bottom: 0.1em;
+	width: 100%;
+	font-weight: 400;
+}
+
+#reset-password{
+	background-color: white;
+	border: 1px solid rgba(55, 226, 194,1);
+	color:  rgba(55, 226, 194,1);
+}
+
+#reset-password a{
+	color:  rgba(55, 226, 194);
+}
+
+#back {
+	font-size: 1em;
+}
+
+#map {
+	padding: 0;
+}
+
+#map img {
+	position: fixed;
+	max-width: 100%;
+}
+
+#maponly {
+	z-index: -1;
+}
+
+.add-location2 {
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	position: fixed;
+	z-index: 4;
+	background: rgba(155, 135, 237, 0.85);
+	position: fixed;
+	bottom: 4em;
+    right: 1em;
+}
+.add-location2 a{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: white;
+	font-size: 1.2em;
+}
+
+
+.add-animal a {
+
+	color: rgba(155, 135, 237, 0.85);
+	font-size: 5em;
+
+}
+
+.add-animal{
+	margin: 0 auto;
+}
+
+/*.monsterlist{
+	background-color: rgba(155, 135, 237, 0.85);
+}*/
+
+.monstername {
+	background: #e2e1e2;
+	width: calc(50% - 10px);
+	border: 2px solid #e2e1e2;
+	margin: 25px;
+	border-radius: 15px;
+
+}
+
+.monster-title{
+	margin-bottom: 15px;
+	background-color: #000000;
+	background:#000000;
+	width: 55%;
+	padding:8px;
+	border-radius: 8px;
+
+}
+
+.monster-title div{
+	font-size: 21px;
+}
+
+.monster-title p{
+	font-size: 16px;
+}
+
+.monster-title div,.monster-title p {
+	color: #ffffff;
+}
+.monstersimg {
+	padding-top: 10px;
+
+}
+
+
+
+.monsterinfo{
+	text-align: center;
+}
+
+.monsterinfoimg{
+	margin-top: 0;
+	padding: 0 2em;
+}
+
+
+
+.monsters {
+	text-align: center;
+	padding: 5px;
+}
+
+.monsterintro {
+	margin-top: 0;
+}
+.monsterintro p {
+	text-align: left;
+}
+
+.expose {
+	margin-left: 80%;
+}
+
+.grid {
+	overflow:hidden;
+}
+
+.add-location{
+	border-radius: 10px;
+	margin:1em auto;
+	background-color: #9b87ed;
+	text-align: center;
+	width: 50%;
+	padding: 1em 1em;
+
+}
+.add-location a{
+
+	position: relative;
+	color: white;
+	font-size: 1em;
+
+}
+
+
+.thelocations {
+	margin:0 auto;
+	padding: 5px;
+}
+.thelocations p {
+	font-size: 0.8em;
+}
+
+.detail{
+	width: 50%;
+
+}
+
+.thelocations img {
+	margin:0 auto;	
+}
+
+.remove {
+	border-radius: 5px;
+	margin:1em auto;
+	background-color: #71e2cd;
+	text-align: center;
+	width: 60%;
+	padding: 0.6em 0.6em;
+
+}
+
+.remove a {
+	color: white;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+.row.flex {
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+
+.flex-img img{
+	max-height: 200px;
+	width: auto;
+	padding-top: 15px;
+}
+/* placeholder source: https://www.w3schools.com/howto/howto_css_placeholder.asp*/
+
+
+.my-login-form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #e6e6e6;
+}
+
+.my-login-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #e6e6e6;
+}
+
+.my-login-form ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e6e6e6;
+}
+
+
+
+
+
+
+#left-panel{
+	background: linear-gradient(#71e2cd, #22bdf4, #9b87ed);
+	color: white;
+}
+.filter-control{
+	color: black;
+}
+
+
+.search-form input{
+	border-radius: 10% 10%;
+}
+
+
+

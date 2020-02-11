@@ -1,0 +1,3198 @@
+[
+  {
+    "img": "images/profile.jpg",
+    "id": 0,
+    "firstName": "Langley ",
+    "lastName": "Kim",
+    "username": "user0",
+    "email": "user0@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust-bg@2x.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Lust-circle@2x.png",
+            "date": "2018-02-25 06:01:39",
+            "lat": 37.750999,
+            "lng": -122.454782,
+            "confession": "Flirted with a handsome guy today."
+          },
+          {
+            "id": 1,
+            "img": "images/Lust-circle@2x.png",
+            "date": "2018-02-15 09:35:58",
+            "lat": 37.763562,
+            "lng": -122.477178,
+            "confession": "Dreamed dating Shawn Mendes for the whole night."
+          },
+          {
+            "id": 2,
+            "img": "images/Lust-circle@2x.png",
+            "date": "2017-10-05 04:15:15",
+            "lat": 37.76747,
+            "lng": -122.446859,
+            "confession": "I went to a strip club."
+          },
+          {
+            "id": 3,
+            "img": "images/Lust-circle@2x.png",
+            "date": "2017-05-09 11:29:08",
+            "lat": 37.765452,
+            "lng": -122.416586,
+            "confession": "I slept with a stripper."
+          },
+          {
+            "id": 4,
+            "img": "images/Lust-circle@2x.png",
+            "date": "2017-06-01 05:58:14",
+            "lat": 37.756593,
+            "lng": -122.416171,
+            "confession": "I was watching porn for the whole night."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony-bg@2x.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Gluttony-circle@2x.png",
+            "date": "2017-04-10 10:41:21",
+            "lat": 37.719606,
+            "lng": -122.423995,
+            "confession": "Kept eating in Korean BBQ buffet for 2 hours."
+          },
+          {
+            "id": 1,
+            "img": "images/Gluttony-circle@2x.png",
+            "date": "2018-02-20 05:43:38",
+            "lat": 37.713204,
+            "lng": -122.503114,
+            "confession": "Had 6 meals for one day."
+          },
+          {
+            "id": 2,
+            "img": "images/Gluttony-circle@2x.png",
+            "date": "2017-04-12 05:56:40",
+            "lat": 37.732611,
+            "lng": -122.427728,
+            "confession": "Asked for extra noodles 5 times at lunch in Japanese ramen restaurant."
+          },
+          {
+            "id": 3,
+            "img": "images/Gluttony-circle@2x.png",
+            "date": "2017-11-25 02:43:43",
+            "lat": 37.782855,
+            "lng": -122.463813,
+            "confession": "Ate up two extra hamburgers from my friends who are full already."
+          },
+          {
+            "id": 4,
+            "img": "images/Gluttony-circle@2x.png",
+            "date": "2017-09-28 08:24:42",
+            "lat": 37.757936,
+            "lng": -122.399408,
+            "confession": "Had 3 meals after dinner."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed-bg@2x.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2017-06-06 07:00:07",
+            "lat": 37.781183,
+            "lng": -122.392248,
+            "confession": "Stayed in casino for eight hours trying to win my money back."
+          },
+          {
+            "id": 1,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2017-01-22 09:11:23",
+            "lat": 37.725101,
+            "lng": -122.417285,
+            "confession": "Didn’t sold the stock that had gained 20% profit which then jumped 15% later."
+          },
+          {
+            "id": 2,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2017-02-08 09:05:19",
+            "lat": 37.734578,
+            "lng": -122.384575,
+            "confession": "Borrowed money from my friends to invest as much bitcoins as possible."
+          },
+          {
+            "id": 3,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2018-01-27 03:44:23",
+            "lat": 37.777891,
+            "lng": -122.42055,
+            "confession": "Asked for more time to accept a well-paid job and kept looking for another one with higher salary package."
+          },
+          {
+            "id": 4,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2018-03-28 05:30:29",
+            "lat": 37.760091,
+            "lng": -122.387282,
+            "confession": "Asked for souvenirs more than once when attending Samsung workshop and tried to sell them for money."
+          },
+          {
+            "id": 5,
+            "img": "images/Greed-circle@2x.png",
+            "date": "2017-01-13 05:54:12",
+            "lat": 37.712717,
+            "lng": -122.388651,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth-bg@2x.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2018-02-25 03:08:16",
+            "lat": 37.774731,
+            "lng": -122.490822,
+            "confession": "Haven’t went to gym for two months."
+          },
+          {
+            "id": 1,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2017-01-28 12:57:11",
+            "lat": 37.779007,
+            "lng": -122.414917,
+            "confession": "Took a nap at work for an hour."
+          },
+          {
+            "id": 2,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2017-07-07 12:31:55",
+            "lat": 37.755543,
+            "lng": -122.460073,
+            "confession": "I slept 18 hours."
+          },
+          {
+            "id": 3,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2018-04-23 11:50:26",
+            "lat": 37.760594,
+            "lng": -122.474109,
+            "confession": "Haven’t do my laundry for a while."
+          },
+          {
+            "id": 4,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2017-05-23 08:15:39",
+            "lat": 37.744993,
+            "lng": -122.42423,
+            "confession": "Haven't work on my final."
+          },
+          {
+            "id": 5,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2018-05-07 12:48:50",
+            "lat": 37.715388,
+            "lng": -122.414117,
+            "confession": "Didn’t go to school because I wanted to sleep at home."
+          },
+          {
+            "id": 6,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2017-08-24 07:05:35",
+            "lat": 37.757676,
+            "lng": -122.476065,
+            "confession": "Went to work without any make up."
+          },
+          {
+            "id": 7,
+            "img": "images/Sloth-circle@2x.png",
+            "date": "2017-08-06 08:27:24",
+            "lat": 37.740316,
+            "lng": -122.391497,
+            "confession": "Ate an apple without washing it."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath-bg@2x.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Wrath-circle@2x.png",
+            "date": "2017-12-16 06:20:53",
+            "lat": 37.764063,
+            "lng": -122.473509,
+            "confession": "Yelled at my friend for something trivial."
+          },
+          {
+            "id": 1,
+            "img": "images/Wrath-circle@2x.png",
+            "date": "2017-04-29 02:01:12",
+            "lat": 37.725335,
+            "lng": -122.425173,
+            "confession": "Kept beeping the car that blocked the street."
+          },
+          {
+            "id": 2,
+            "img": "images/Wrath-circle@2x.png",
+            "date": "2017-03-14 01:48:12",
+            "lat": 37.779518,
+            "lng": -122.435592,
+            "confession": "I was fighting with my best friend because of a girl."
+          },
+          {
+            "id": 3,
+            "img": "images/Wrath-circle@2x.png",
+            "date": "2018-05-07 07:52:15",
+            "lat": 37.760545,
+            "lng": -122.482803,
+            "confession": "I broke my mom's cellphone because she yelled at me."
+          },
+          {
+            "id": 4,
+            "img": "images/Wrath-circle@2x.png",
+            "date": "2017-09-03 02:14:44",
+            "lat": 37.716995,
+            "lng": -122.459116,
+            "confession": "I yelled at a waiter because he gave me a wrong drink."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy-bg@2x.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2018-05-11 01:16:33",
+            "lat": 37.778039,
+            "lng": -122.395746,
+            "confession": "Unwilling to cooperate with colleagues who are younger and prettier than me."
+          },
+          {
+            "id": 1,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2018-01-20 03:31:26",
+            "lat": 37.763845,
+            "lng": -122.384631,
+            "confession": "I haven’t talk to my boyfriend two days after I noticed that he was texting a pretty girl."
+          },
+          {
+            "id": 2,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2017-04-11 04:16:40",
+            "lat": 37.771065,
+            "lng": -122.451841,
+            "confession": "I was talking to a girl with the sarcastic tone because she is so rich."
+          },
+          {
+            "id": 3,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2017-02-28 02:18:36",
+            "lat": 37.785879,
+            "lng": -122.489139,
+            "confession": "I said something bad about a gril because her GPA is higher than me."
+          },
+          {
+            "id": 4,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2017-10-20 09:12:17",
+            "lat": 37.752593,
+            "lng": -122.384123,
+            "confession": "I didn't invite a guy to my birthday party because he is taller than me."
+          },
+          {
+            "id": 5,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2018-03-31 09:08:18",
+            "lat": 37.713376,
+            "lng": -122.452249,
+            "confession": "I didn't appreciate for my Christmas gift from my parents because my sister got a better one."
+          },
+          {
+            "id": 6,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2017-01-22 02:04:36",
+            "lat": 37.736069,
+            "lng": -122.38999,
+            "confession": "I didn't pay attention to work because my cowoker was on a vacation in Paris."
+          },
+          {
+            "id": 7,
+            "img": "images/Envy-circle@2x.png",
+            "date": "2017-08-23 08:50:21",
+            "lat": 37.739299,
+            "lng": -122.465229,
+            "confession": "I was so envy with my friend who had great time in Vegas edc while I have to work for the final project."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride-bg@2x.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "img": "images/Pride-circle@2x.png",
+            "date": "2018-03-04 01:44:21",
+            "lat": 37.723887,
+            "lng": -122.48377,
+            "confession": "I didn't go the Spring Show because I think my work is better."
+          },
+          {
+            "id": 1,
+            "img": "images/Pride-circle@2x.png",
+            "date": "2018-02-02 01:36:07",
+            "lat": 37.719056,
+            "lng": -122.413317,
+            "confession": "Didn’t admit I was wrong to my subordinates."
+          },
+          {
+            "id": 2,
+            "img": "images/Pride-circle@2x.png",
+            "date": "2017-06-23 04:24:03",
+            "lat": 37.764837,
+            "lng": -122.419042,
+            "confession": "I didn't change the design that my friend suggested me to, because I prefer mine."
+          },
+          {
+            "id": 3,
+            "img": "images/Pride-circle@2x.png",
+            "date": "2018-03-01 02:36:55",
+            "lat": 37.740283,
+            "lng": -122.39656,
+            "confession": "I was laughing at a poor guy who cannot afford an iPhone."
+          },
+          {
+            "id": 4,
+            "img": "images/Pride-circle@2x.png",
+            "date": "2017-04-15 04:54:34",
+            "lat": 37.75713,
+            "lng": -122.450536,
+            "confession": "I refused her invitation because I felt like that restaurant is so cheap."
+          }
+        ],
+        "loc_amount": 5
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/841/fff",
+    "id": 1,
+    "firstName": "Shelia ",
+    "lastName": "Pace",
+    "username": "user1",
+    "email": "user1@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-06-04 08:30:52",
+            "lat": 37.755046,
+            "lng": -122.405613,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-03-18 04:34:14",
+            "lat": 37.777252,
+            "lng": -122.458853,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-02 03:29:18",
+            "lat": 37.745301,
+            "lng": -122.415495,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-03-22 01:15:04",
+            "lat": 37.736648,
+            "lng": -122.392736,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-04-20 01:24:11",
+            "lat": 37.754836,
+            "lng": -122.391994,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-12-18 02:56:52",
+            "lat": 37.786904,
+            "lng": -122.484109,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-09-08 10:00:52",
+            "lat": 37.765807,
+            "lng": -122.471649,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-06-30 10:24:50",
+            "lat": 37.750421,
+            "lng": -122.472858,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-31 09:22:57",
+            "lat": 37.748025,
+            "lng": -122.430807,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-03-24 09:35:25",
+            "lat": 37.765516,
+            "lng": -122.467087,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-02-15 09:21:26",
+            "lat": 37.761064,
+            "lng": -122.408764,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-08-14 01:08:02",
+            "lat": 37.733591,
+            "lng": -122.450073,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-12-25 12:28:38",
+            "lat": 37.770595,
+            "lng": -122.411106,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-02-06 08:24:30",
+            "lat": 37.732711,
+            "lng": -122.471681,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-11-06 04:37:50",
+            "lat": 37.744004,
+            "lng": -122.453196,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-12-13 03:56:22",
+            "lat": 37.780474,
+            "lng": -122.479893,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-25 04:37:40",
+            "lat": 37.765457,
+            "lng": -122.454575,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-08-08 07:01:30",
+            "lat": 37.774033,
+            "lng": -122.401244,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-05-17 06:54:44",
+            "lat": 37.737496,
+            "lng": -122.400816,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-08-18 03:09:44",
+            "lat": 37.759303,
+            "lng": -122.475194,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-03-14 03:11:01",
+            "lat": 37.766294,
+            "lng": -122.45004,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-04-24 09:40:10",
+            "lat": 37.747139,
+            "lng": -122.476796,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-05-28 01:27:34",
+            "lat": 37.775797,
+            "lng": -122.473543,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-04-08 08:54:20",
+            "lat": 37.734282,
+            "lng": -122.448307,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-03-13 02:48:01",
+            "lat": 37.770255,
+            "lng": -122.394109,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-06-11 09:22:59",
+            "lat": 37.718335,
+            "lng": -122.434988,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-01-28 08:31:04",
+            "lat": 37.760349,
+            "lng": -122.501668,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-12-05 01:28:04",
+            "lat": 37.72525,
+            "lng": -122.423618,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-11-12 06:14:48",
+            "lat": 37.767156,
+            "lng": -122.390728,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-03-08 05:25:58",
+            "lat": 37.714499,
+            "lng": -122.404625,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-04-17 10:50:15",
+            "lat": 37.766063,
+            "lng": -122.416202,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-10-24 09:34:07",
+            "lat": 37.732328,
+            "lng": -122.407424,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-05 04:56:03",
+            "lat": 37.77129,
+            "lng": -122.468438,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-12 08:41:33",
+            "lat": 37.715939,
+            "lng": -122.452522,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-01-30 07:23:55",
+            "lat": 37.727436,
+            "lng": -122.398824,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-11-12 05:58:55",
+            "lat": 37.733808,
+            "lng": -122.415789,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-04-27 06:20:20",
+            "lat": 37.760776,
+            "lng": -122.38814,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-03 04:24:20",
+            "lat": 37.74303,
+            "lng": -122.443074,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-03-19 06:52:47",
+            "lat": 37.735172,
+            "lng": -122.411824,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-11-22 05:17:08",
+            "lat": 37.732573,
+            "lng": -122.478667,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-04-04 03:21:35",
+            "lat": 37.775578,
+            "lng": -122.398676,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-05-22 02:55:52",
+            "lat": 37.731812,
+            "lng": -122.408738,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-05-13 02:01:51",
+            "lat": 37.744065,
+            "lng": -122.487801,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-07-16 12:01:50",
+            "lat": 37.714264,
+            "lng": -122.483286,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-02-14 07:50:15",
+            "lat": 37.759987,
+            "lng": -122.455053,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-02-22 12:09:17",
+            "lat": 37.755281,
+            "lng": -122.491699,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-08-31 07:36:14",
+            "lat": 37.748569,
+            "lng": -122.481186,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/889/fff",
+    "id": 2,
+    "firstName": "Duffy ",
+    "lastName": "Petersen",
+    "username": "user2",
+    "email": "user2@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-26 01:49:58",
+            "lat": 37.739766,
+            "lng": -122.482941,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-01 08:19:38",
+            "lat": 37.780531,
+            "lng": -122.456038,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-08-21 01:00:16",
+            "lat": 37.727956,
+            "lng": -122.433124,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-10-26 03:56:42",
+            "lat": 37.786153,
+            "lng": -122.44024,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-05 06:58:47",
+            "lat": 37.721824,
+            "lng": -122.454461,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-04-23 07:11:32",
+            "lat": 37.75865,
+            "lng": -122.438739,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2018-03-27 11:17:17",
+            "lat": 37.744543,
+            "lng": -122.454667,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-01-05 09:01:40",
+            "lat": 37.778101,
+            "lng": -122.401495,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-10-05 12:40:56",
+            "lat": 37.765684,
+            "lng": -122.472888,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-09 07:25:35",
+            "lat": 37.737487,
+            "lng": -122.494727,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-11-10 06:05:16",
+            "lat": 37.778956,
+            "lng": -122.389426,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-08-20 11:53:53",
+            "lat": 37.777705,
+            "lng": -122.451137,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-01-31 11:49:55",
+            "lat": 37.773383,
+            "lng": -122.435446,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-04-09 06:24:09",
+            "lat": 37.741399,
+            "lng": -122.388035,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-01-17 08:30:47",
+            "lat": 37.746251,
+            "lng": -122.3932,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-02-02 02:16:34",
+            "lat": 37.761969,
+            "lng": -122.486338,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-07-15 10:43:33",
+            "lat": 37.743029,
+            "lng": -122.386006,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-12 07:29:27",
+            "lat": 37.728211,
+            "lng": -122.490862,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-09-06 09:14:47",
+            "lat": 37.753554,
+            "lng": -122.433674,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-01-19 08:46:52",
+            "lat": 37.787501,
+            "lng": -122.393542,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-03-31 12:07:43",
+            "lat": 37.77766,
+            "lng": -122.479226,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-11 08:19:46",
+            "lat": 37.729736,
+            "lng": -122.474487,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-04-08 10:43:31",
+            "lat": 37.753541,
+            "lng": -122.400491,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-05-09 07:32:45",
+            "lat": 37.769933,
+            "lng": -122.498401,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-13 09:25:30",
+            "lat": 37.765732,
+            "lng": -122.466701,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-09-09 11:29:59",
+            "lat": 37.7584,
+            "lng": -122.487424,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-05-21 12:45:00",
+            "lat": 37.761008,
+            "lng": -122.418548,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2018-03-22 06:58:26",
+            "lat": 37.735837,
+            "lng": -122.401224,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-12-21 04:31:16",
+            "lat": 37.782042,
+            "lng": -122.447706,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-11 05:03:21",
+            "lat": 37.765377,
+            "lng": -122.403003,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-08-07 08:18:02",
+            "lat": 37.776354,
+            "lng": -122.480486,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-04-29 08:53:38",
+            "lat": 37.725575,
+            "lng": -122.463145,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-03-13 10:17:58",
+            "lat": 37.75747,
+            "lng": -122.445954,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-03-27 11:00:02",
+            "lat": 37.763288,
+            "lng": -122.481669,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-10-14 09:13:21",
+            "lat": 37.752081,
+            "lng": -122.451275,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-11-29 11:21:53",
+            "lat": 37.783515,
+            "lng": -122.397573,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-03-07 12:20:04",
+            "lat": 37.745751,
+            "lng": -122.420117,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-02-19 12:54:17",
+            "lat": 37.74415,
+            "lng": -122.474711,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-08-03 04:56:19",
+            "lat": 37.779308,
+            "lng": -122.395228,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-03-20 01:34:23",
+            "lat": 37.723483,
+            "lng": -122.392171,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-05-15 03:59:15",
+            "lat": 37.752624,
+            "lng": -122.500686,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-06-03 10:17:17",
+            "lat": 37.729366,
+            "lng": -122.429123,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-02-26 02:56:11",
+            "lat": 37.780939,
+            "lng": -122.395183,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-09-01 04:52:59",
+            "lat": 37.732911,
+            "lng": -122.45503,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-13 03:00:04",
+            "lat": 37.752848,
+            "lng": -122.38592,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-05-04 08:14:48",
+            "lat": 37.734058,
+            "lng": -122.449521,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-08-17 08:20:35",
+            "lat": 37.735442,
+            "lng": -122.418128,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-08-11 08:49:56",
+            "lat": 37.770422,
+            "lng": -122.484387,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-02-23 04:56:27",
+            "lat": 37.734642,
+            "lng": -122.43992,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-04-30 06:29:39",
+            "lat": 37.778133,
+            "lng": -122.415208,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2018-03-01 03:32:15",
+            "lat": 37.778599,
+            "lng": -122.422928,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/723/fff",
+    "id": 3,
+    "firstName": "Richard ",
+    "lastName": "Wilson",
+    "username": "user3",
+    "email": "user3@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-04-05 02:56:07",
+            "lat": 37.725735,
+            "lng": -122.476371,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-11-23 05:11:19",
+            "lat": 37.713145,
+            "lng": -122.445729,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-11-02 04:47:43",
+            "lat": 37.738798,
+            "lng": -122.468017,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-06-08 01:38:48",
+            "lat": 37.766744,
+            "lng": -122.458286,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-02-15 06:09:34",
+            "lat": 37.7568,
+            "lng": -122.394228,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-12-14 03:50:47",
+            "lat": 37.723475,
+            "lng": -122.476828,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-26 02:55:48",
+            "lat": 37.75109,
+            "lng": -122.444904,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-03-10 09:42:03",
+            "lat": 37.731826,
+            "lng": -122.386682,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-15 12:12:13",
+            "lat": 37.731513,
+            "lng": -122.411681,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-03-03 08:49:26",
+            "lat": 37.754651,
+            "lng": -122.400122,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-01-02 07:07:15",
+            "lat": 37.725413,
+            "lng": -122.412658,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-25 09:18:55",
+            "lat": 37.756502,
+            "lng": -122.420141,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-05-19 11:58:25",
+            "lat": 37.74324,
+            "lng": -122.49682,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-09-25 02:18:27",
+            "lat": 37.764108,
+            "lng": -122.497503,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-04-25 11:34:18",
+            "lat": 37.745835,
+            "lng": -122.448692,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-02-27 06:20:13",
+            "lat": 37.743874,
+            "lng": -122.486766,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-03-21 05:21:25",
+            "lat": 37.778571,
+            "lng": -122.399529,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-04 04:24:51",
+            "lat": 37.77575,
+            "lng": -122.417327,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-10-17 06:16:40",
+            "lat": 37.765601,
+            "lng": -122.444667,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-13 08:00:27",
+            "lat": 37.775515,
+            "lng": -122.443801,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-01-25 02:01:14",
+            "lat": 37.749961,
+            "lng": -122.492506,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-03-31 04:32:07",
+            "lat": 37.717151,
+            "lng": -122.45286,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-10-31 09:06:03",
+            "lat": 37.744634,
+            "lng": -122.407704,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-14 09:38:39",
+            "lat": 37.757223,
+            "lng": -122.400902,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-02-19 11:23:41",
+            "lat": 37.739149,
+            "lng": -122.417597,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-01-08 09:56:53",
+            "lat": 37.725375,
+            "lng": -122.482711,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-07-15 02:30:32",
+            "lat": 37.75886,
+            "lng": -122.451568,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-03-24 01:32:03",
+            "lat": 37.783725,
+            "lng": -122.413456,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-05-18 08:01:24",
+            "lat": 37.744085,
+            "lng": -122.441085,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-06-04 07:32:02",
+            "lat": 37.768172,
+            "lng": -122.430813,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-07-16 10:54:17",
+            "lat": 37.757902,
+            "lng": -122.491249,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-01-06 12:42:16",
+            "lat": 37.778339,
+            "lng": -122.441142,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-05-24 07:40:56",
+            "lat": 37.749397,
+            "lng": -122.424377,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-04-01 03:29:01",
+            "lat": 37.751974,
+            "lng": -122.473755,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-04-27 06:17:15",
+            "lat": 37.716791,
+            "lng": -122.471914,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-01-17 02:15:37",
+            "lat": 37.728978,
+            "lng": -122.492829,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-09-12 06:27:01",
+            "lat": 37.786658,
+            "lng": -122.430788,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-05 01:14:04",
+            "lat": 37.72293,
+            "lng": -122.412649,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-09-20 02:46:36",
+            "lat": 37.728483,
+            "lng": -122.445593,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-07-24 10:51:34",
+            "lat": 37.773114,
+            "lng": -122.479832,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-11-16 05:17:11",
+            "lat": 37.760264,
+            "lng": -122.490156,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-04-01 04:40:20",
+            "lat": 37.746406,
+            "lng": -122.460519,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/912/fff",
+    "id": 4,
+    "firstName": "Curtis ",
+    "lastName": "Orr",
+    "username": "user4",
+    "email": "user4@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-04-19 11:18:44",
+            "lat": 37.773043,
+            "lng": -122.501094,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-01-06 01:24:42",
+            "lat": 37.72806,
+            "lng": -122.435988,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-01-09 06:56:18",
+            "lat": 37.766824,
+            "lng": -122.424002,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-03-07 09:55:47",
+            "lat": 37.723973,
+            "lng": -122.454658,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-29 04:58:50",
+            "lat": 37.742919,
+            "lng": -122.389637,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-12-09 09:43:50",
+            "lat": 37.732278,
+            "lng": -122.426421,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-04-17 08:29:41",
+            "lat": 37.720477,
+            "lng": -122.453957,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-14 08:59:22",
+            "lat": 37.732479,
+            "lng": -122.478764,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-02 06:50:21",
+            "lat": 37.757459,
+            "lng": -122.390329,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-01-17 06:19:29",
+            "lat": 37.725273,
+            "lng": -122.436285,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-05-19 02:19:18",
+            "lat": 37.765789,
+            "lng": -122.482538,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-04-08 09:08:48",
+            "lat": 37.75174,
+            "lng": -122.406669,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-02-12 06:58:13",
+            "lat": 37.787375,
+            "lng": -122.452807,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-07-07 03:01:17",
+            "lat": 37.753585,
+            "lng": -122.494729,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-05-23 11:16:29",
+            "lat": 37.737915,
+            "lng": -122.402456,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-01 03:51:37",
+            "lat": 37.773834,
+            "lng": -122.429209,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-13 03:26:54",
+            "lat": 37.786847,
+            "lng": -122.426685,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-01-21 06:50:10",
+            "lat": 37.727593,
+            "lng": -122.435578,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-05-29 11:27:51",
+            "lat": 37.770898,
+            "lng": -122.407815,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-21 06:01:32",
+            "lat": 37.766634,
+            "lng": -122.472955,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-03-01 07:00:25",
+            "lat": 37.761837,
+            "lng": -122.461714,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-02-27 10:08:15",
+            "lat": 37.777053,
+            "lng": -122.43767,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-10-20 02:27:29",
+            "lat": 37.712704,
+            "lng": -122.393494,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-09-21 03:41:53",
+            "lat": 37.729253,
+            "lng": -122.406546,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-05-15 07:47:02",
+            "lat": 37.738054,
+            "lng": -122.490061,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-03-04 10:27:48",
+            "lat": 37.737778,
+            "lng": -122.424858,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-04-18 06:47:36",
+            "lat": 37.76274,
+            "lng": -122.490857,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-04 04:48:12",
+            "lat": 37.734616,
+            "lng": -122.490006,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-04-27 11:24:48",
+            "lat": 37.726641,
+            "lng": -122.441159,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-03-10 10:39:00",
+            "lat": 37.725827,
+            "lng": -122.401695,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-10-05 10:06:39",
+            "lat": 37.780817,
+            "lng": -122.393599,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-04-08 03:12:52",
+            "lat": 37.745973,
+            "lng": -122.478447,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-08-10 03:00:40",
+            "lat": 37.740946,
+            "lng": -122.500097,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-07 02:06:54",
+            "lat": 37.754496,
+            "lng": -122.406825,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-04-20 06:56:41",
+            "lat": 37.731365,
+            "lng": -122.463756,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-10-06 03:48:08",
+            "lat": 37.759521,
+            "lng": -122.496375,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-08-04 11:56:27",
+            "lat": 37.746961,
+            "lng": -122.385707,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-08-08 02:06:05",
+            "lat": 37.775011,
+            "lng": -122.454234,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-12-23 01:57:45",
+            "lat": 37.748812,
+            "lng": -122.48685,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-06-26 08:34:27",
+            "lat": 37.732722,
+            "lng": -122.444533,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-03-15 01:42:03",
+            "lat": 37.770395,
+            "lng": -122.495611,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-05-13 11:26:25",
+            "lat": 37.757501,
+            "lng": -122.402538,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-04 04:58:35",
+            "lat": 37.720547,
+            "lng": -122.416423,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-07-09 02:27:47",
+            "lat": 37.764706,
+            "lng": -122.479876,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-01-07 03:40:48",
+            "lat": 37.746485,
+            "lng": -122.489109,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-12-01 11:43:26",
+            "lat": 37.733565,
+            "lng": -122.389452,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-09-17 12:27:00",
+            "lat": 37.739843,
+            "lng": -122.391523,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/751/fff",
+    "id": 5,
+    "firstName": "Felicia ",
+    "lastName": "Mcdowell",
+    "username": "user5",
+    "email": "user5@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-11-19 05:30:33",
+            "lat": 37.723131,
+            "lng": -122.445901,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-12-19 09:23:04",
+            "lat": 37.772364,
+            "lng": -122.417473,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-03-12 05:33:59",
+            "lat": 37.749683,
+            "lng": -122.400424,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-24 05:14:05",
+            "lat": 37.749871,
+            "lng": -122.443411,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-06-15 02:22:37",
+            "lat": 37.785973,
+            "lng": -122.4842,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-05-11 04:51:47",
+            "lat": 37.721332,
+            "lng": -122.452985,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-10-12 06:35:07",
+            "lat": 37.775056,
+            "lng": -122.485251,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-11-17 08:41:25",
+            "lat": 37.769045,
+            "lng": -122.450671,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-06-12 07:05:13",
+            "lat": 37.780048,
+            "lng": -122.457341,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-12-16 09:11:50",
+            "lat": 37.781559,
+            "lng": -122.413718,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-03-24 10:52:09",
+            "lat": 37.764863,
+            "lng": -122.464346,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-07-08 02:15:41",
+            "lat": 37.719992,
+            "lng": -122.414318,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-04-09 07:33:10",
+            "lat": 37.746929,
+            "lng": -122.481936,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-09-11 08:56:41",
+            "lat": 37.772552,
+            "lng": -122.415071,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-10-11 02:34:55",
+            "lat": 37.780768,
+            "lng": -122.414146,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-03-19 07:54:48",
+            "lat": 37.743794,
+            "lng": -122.407806,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-03-06 07:15:58",
+            "lat": 37.781938,
+            "lng": -122.460783,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-03-17 08:15:06",
+            "lat": 37.745445,
+            "lng": -122.497254,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-19 07:09:14",
+            "lat": 37.762503,
+            "lng": -122.467934,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-09-07 05:40:14",
+            "lat": 37.740886,
+            "lng": -122.412546,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-09-24 05:20:19",
+            "lat": 37.726789,
+            "lng": -122.420031,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-01-16 09:07:03",
+            "lat": 37.730702,
+            "lng": -122.385144,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-04-14 10:51:45",
+            "lat": 37.723596,
+            "lng": -122.40345,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-04-16 11:00:22",
+            "lat": 37.779882,
+            "lng": -122.452091,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-02-03 11:34:03",
+            "lat": 37.738134,
+            "lng": -122.433488,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-02-16 12:28:28",
+            "lat": 37.773696,
+            "lng": -122.430228,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-01-12 07:29:27",
+            "lat": 37.768866,
+            "lng": -122.452011,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2018-04-25 05:07:22",
+            "lat": 37.7834,
+            "lng": -122.478006,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-04 11:43:57",
+            "lat": 37.752781,
+            "lng": -122.496645,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-03-17 03:03:07",
+            "lat": 37.759601,
+            "lng": -122.454297,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-29 04:13:44",
+            "lat": 37.743117,
+            "lng": -122.433092,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-05-22 05:49:55",
+            "lat": 37.737548,
+            "lng": -122.422785,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-07-28 08:33:03",
+            "lat": 37.766027,
+            "lng": -122.434279,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-08-22 09:43:43",
+            "lat": 37.765327,
+            "lng": -122.426813,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-07-23 10:10:28",
+            "lat": 37.734489,
+            "lng": -122.407038,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-08-28 05:43:51",
+            "lat": 37.752502,
+            "lng": -122.43813,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-07-04 09:20:00",
+            "lat": 37.776704,
+            "lng": -122.407384,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-01-03 05:50:42",
+            "lat": 37.762061,
+            "lng": -122.456478,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-07-07 04:15:40",
+            "lat": 37.746603,
+            "lng": -122.425642,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-10-24 10:23:48",
+            "lat": 37.766278,
+            "lng": -122.484183,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-03-14 12:00:09",
+            "lat": 37.740216,
+            "lng": -122.48938,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-06-27 03:43:41",
+            "lat": 37.721099,
+            "lng": -122.468797,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-06-02 02:49:35",
+            "lat": 37.747337,
+            "lng": -122.415595,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-03-06 01:39:35",
+            "lat": 37.726983,
+            "lng": -122.496166,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-07-04 10:42:05",
+            "lat": 37.778309,
+            "lng": -122.430023,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-11-06 05:58:46",
+            "lat": 37.737791,
+            "lng": -122.429353,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-05-28 10:08:34",
+            "lat": 37.716133,
+            "lng": -122.445182,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/885/fff",
+    "id": 6,
+    "firstName": "Lana ",
+    "lastName": "Rodgers",
+    "username": "user6",
+    "email": "user6@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-12-01 05:43:53",
+            "lat": 37.782106,
+            "lng": -122.482706,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-04-28 02:58:32",
+            "lat": 37.774113,
+            "lng": -122.425415,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-03 08:49:35",
+            "lat": 37.747926,
+            "lng": -122.420787,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-05 09:34:57",
+            "lat": 37.787438,
+            "lng": -122.396567,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-06-13 11:43:16",
+            "lat": 37.733898,
+            "lng": -122.400704,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-06-10 02:54:16",
+            "lat": 37.765177,
+            "lng": -122.477603,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-06-07 01:34:03",
+            "lat": 37.744281,
+            "lng": -122.446237,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-10-11 06:43:54",
+            "lat": 37.761349,
+            "lng": -122.451669,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-03-15 09:47:34",
+            "lat": 37.720249,
+            "lng": -122.503169,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-06-03 08:59:05",
+            "lat": 37.762214,
+            "lng": -122.4065,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-04-02 12:08:00",
+            "lat": 37.742066,
+            "lng": -122.446033,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-10-23 03:32:17",
+            "lat": 37.778653,
+            "lng": -122.469552,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-11-22 03:57:59",
+            "lat": 37.743645,
+            "lng": -122.44552,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-11-14 06:22:39",
+            "lat": 37.773795,
+            "lng": -122.461434,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-01-03 09:22:47",
+            "lat": 37.713555,
+            "lng": -122.437337,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-10 11:20:37",
+            "lat": 37.740711,
+            "lng": -122.40509,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-06-09 02:12:03",
+            "lat": 37.778753,
+            "lng": -122.468002,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-08-05 10:27:58",
+            "lat": 37.766759,
+            "lng": -122.413665,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-05-03 03:56:11",
+            "lat": 37.738201,
+            "lng": -122.411415,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-03-29 04:08:38",
+            "lat": 37.773571,
+            "lng": -122.490498,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-02-03 10:19:49",
+            "lat": 37.773635,
+            "lng": -122.465068,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-09-13 12:27:13",
+            "lat": 37.735305,
+            "lng": -122.49175,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-04-17 01:30:49",
+            "lat": 37.7343,
+            "lng": -122.468323,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-09-01 07:07:11",
+            "lat": 37.764904,
+            "lng": -122.495272,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-01-29 06:39:07",
+            "lat": 37.726671,
+            "lng": -122.461779,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-11-27 01:52:51",
+            "lat": 37.759807,
+            "lng": -122.427031,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-11-26 02:56:06",
+            "lat": 37.736402,
+            "lng": -122.482331,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-07-15 08:17:00",
+            "lat": 37.733269,
+            "lng": -122.452691,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-10-27 09:17:54",
+            "lat": 37.783051,
+            "lng": -122.499564,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-08-19 07:48:13",
+            "lat": 37.773655,
+            "lng": -122.482324,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2018-04-21 02:57:39",
+            "lat": 37.734677,
+            "lng": -122.417902,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2017-03-30 07:12:26",
+            "lat": 37.716967,
+            "lng": -122.432553,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-04-14 05:08:47",
+            "lat": 37.726223,
+            "lng": -122.400369,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-06-05 03:00:01",
+            "lat": 37.727126,
+            "lng": -122.393206,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-03-29 08:20:22",
+            "lat": 37.749151,
+            "lng": -122.44056,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-09-26 08:00:06",
+            "lat": 37.76333,
+            "lng": -122.452015,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-08-13 11:29:02",
+            "lat": 37.712664,
+            "lng": -122.403932,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-01-20 01:51:23",
+            "lat": 37.779569,
+            "lng": -122.415935,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-03-30 01:28:13",
+            "lat": 37.787196,
+            "lng": -122.486119,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-09-26 09:51:02",
+            "lat": 37.728027,
+            "lng": -122.421378,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-03-28 05:07:25",
+            "lat": 37.750688,
+            "lng": -122.49554,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-03-15 07:24:23",
+            "lat": 37.742598,
+            "lng": -122.496574,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-04-16 03:35:28",
+            "lat": 37.75421,
+            "lng": -122.422349,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-08-16 07:24:44",
+            "lat": 37.737719,
+            "lng": -122.394361,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      }
+    ]
+  },
+  {
+    "img": "http://via.placeholder.com/200/885/fff",
+    "id": 7,
+    "firstName": "Cleveland ",
+    "lastName": "Stanley",
+    "username": "user7",
+    "email": "user7@gmail.com",
+    "password": "pass",
+    "animals": [
+      {
+        "id": 0,
+        "type": "Lust",
+        "img": "images/Lust.png",
+        "intro": "Lust is an inordinate craving for the pleasures of the body.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-02-16 10:42:52",
+            "lat": 37.773478,
+            "lng": -122.463048,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-01-23 09:28:49",
+            "lat": 37.752486,
+            "lng": -122.492139,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-27 10:32:42",
+            "lat": 37.766413,
+            "lng": -122.427027,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-06-23 05:52:01",
+            "lat": 37.745625,
+            "lng": -122.421178,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-04-24 12:05:34",
+            "lat": 37.723891,
+            "lng": -122.405181,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 5
+      },
+      {
+        "id": 1,
+        "type": "Gluttony",
+        "img": "images/Gluttony.png",
+        "intro": "Gluttony is an inordinate desire to consume more than that which one requires.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-22 04:47:00",
+            "lat": 37.75385,
+            "lng": -122.46294,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-12-04 11:34:21",
+            "lat": 37.770437,
+            "lng": -122.449931,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-07-22 03:01:24",
+            "lat": 37.732293,
+            "lng": -122.491737,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-02-27 10:20:07",
+            "lat": 37.768362,
+            "lng": -122.487496,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-01-27 07:13:23",
+            "lat": 37.780611,
+            "lng": -122.440398,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-05-30 06:22:37",
+            "lat": 37.756242,
+            "lng": -122.487193,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 2,
+        "type": "Greed",
+        "img": "images/Greed.png",
+        "intro": "Greed is the desire for material wealth or gain, ignoring the realm of the spiritual. It is also called Avarice or Covetousness.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-09-19 10:38:24",
+            "lat": 37.731822,
+            "lng": -122.390339,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-03-16 10:33:36",
+            "lat": 37.747753,
+            "lng": -122.498284,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-09-12 07:50:19",
+            "lat": 37.751003,
+            "lng": -122.458162,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2018-03-03 10:04:07",
+            "lat": 37.774451,
+            "lng": -122.392468,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-11 03:42:12",
+            "lat": 37.74071,
+            "lng": -122.442796,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-01-08 09:37:41",
+            "lat": 37.764591,
+            "lng": -122.40377,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 3,
+        "type": "Sloth",
+        "img": "images/Sloth.png",
+        "intro": "Sloth is the avoidance of physical or spiritual work.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-03-19 01:01:29",
+            "lat": 37.720471,
+            "lng": -122.466287,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-05-14 06:56:00",
+            "lat": 37.734241,
+            "lng": -122.478654,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-01-23 09:59:03",
+            "lat": 37.736617,
+            "lng": -122.495198,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-01-01 07:23:21",
+            "lat": 37.767125,
+            "lng": -122.502209,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2018-01-14 12:51:46",
+            "lat": 37.727872,
+            "lng": -122.500648,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-02-14 05:21:05",
+            "lat": 37.7286,
+            "lng": -122.40504,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-06-04 11:05:05",
+            "lat": 37.780287,
+            "lng": -122.501067,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 7
+      },
+      {
+        "id": 4,
+        "type": "Wrath",
+        "img": "images/Wrath.png",
+        "intro": "Wrath is manifested in the individual who spurns love and opts instead for fury. It is also known as Wrath.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2017-08-18 07:17:10",
+            "lat": 37.726369,
+            "lng": -122.384589,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-09-08 08:43:47",
+            "lat": 37.720312,
+            "lng": -122.404548,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-09-07 02:07:29",
+            "lat": 37.740028,
+            "lng": -122.459243,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-02-12 10:32:24",
+            "lat": 37.728686,
+            "lng": -122.467786,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-07-08 09:00:12",
+            "lat": 37.723341,
+            "lng": -122.421416,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-05-13 09:48:06",
+            "lat": 37.748564,
+            "lng": -122.428701,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-08-04 05:09:39",
+            "lat": 37.781144,
+            "lng": -122.5009,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2018-04-10 07:29:08",
+            "lat": 37.736048,
+            "lng": -122.414109,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      },
+      {
+        "id": 5,
+        "type": "Envy",
+        "img": "images/Envy.png",
+        "intro": "Envy is the desire for others' traits, status, abilities, or situation.",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-03-31 08:37:55",
+            "lat": 37.768724,
+            "lng": -122.442294,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2018-01-25 07:02:53",
+            "lat": 37.715123,
+            "lng": -122.430763,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2018-03-26 09:30:30",
+            "lat": 37.740964,
+            "lng": -122.432656,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-06-15 04:46:57",
+            "lat": 37.733064,
+            "lng": -122.439907,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-04-01 03:44:50",
+            "lat": 37.748252,
+            "lng": -122.470646,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2017-04-05 09:35:06",
+            "lat": 37.736163,
+            "lng": -122.458275,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 6
+      },
+      {
+        "id": 6,
+        "type": "Pride",
+        "img": "images/Pride.png",
+        "intro": "The Sin of Pride is said by some to the the foremost of the Seven Deadly Sins. Hubris is the gateway through all other sin enters the mortal soul. ",
+        "locations": [
+          {
+            "id": 0,
+            "date": "2018-02-14 04:16:08",
+            "lat": 37.723631,
+            "lng": -122.406918,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 1,
+            "date": "2017-02-08 07:46:16",
+            "lat": 37.735824,
+            "lng": -122.487852,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 2,
+            "date": "2017-12-17 06:14:16",
+            "lat": 37.713648,
+            "lng": -122.446737,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 3,
+            "date": "2017-09-05 02:01:22",
+            "lat": 37.717672,
+            "lng": -122.403255,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 4,
+            "date": "2017-11-01 02:17:37",
+            "lat": 37.763455,
+            "lng": -122.394371,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 5,
+            "date": "2018-03-21 09:37:47",
+            "lat": 37.749124,
+            "lng": -122.442741,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 6,
+            "date": "2017-10-18 08:05:42",
+            "lat": 37.759716,
+            "lng": -122.502377,
+            "confession": "I did something super bad."
+          },
+          {
+            "id": 7,
+            "date": "2018-01-10 11:16:22",
+            "lat": 37.721605,
+            "lng": -122.493255,
+            "confession": "I did something super bad."
+          }
+        ],
+        "loc_amount": 8
+      }
+    ]
+  }
+]

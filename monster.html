@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Log In Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/app.css">
+
+	<script src="lib/js/jquery-2.2.4.min.js"></script>
+	<script src="lib/apptools.js"></script>
+
+	<script src="lib/js/dayjs.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!-- AIzaSyDxfJwi7DiW-P0hcjUOxWspFIPdM7H9bdI   copy API Key-->
+
+
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxfJwi7DiW-P0hcjUOxWspFIPdM7H9bdI&callback=initMap"
+    async defer></script>
+
+
+</head>
+<body>
+
+
+
+
+
+<!--        	Login Page             -->
+	<section data-role="page" id="login-page">
+		<img src="images/login.png" class="home-image">
+		<form id="login-form" class="centered-child">
+			<div class="alert">&nbsp;</div>
+			<div class="form-control">
+				<input type="text" class="form-input" id="login-username" placeholder="User Name" data-role="none">
+			</div>
+			<div class="form-control">
+				<input type="Password" class="form-input" id="login-password" placeholder="Password" data-role="none">
+			</div>
+			<div class="form-control">
+				<input class="form-button" type="submit" id="sign-in" value="Sign In" data-role="none">
+			</div>
+		</form>
+	</section>
+
+<!--        	Home             -->
+
+<section data-role="page" id="main-page">
+		<header data-role="header">
+			<a href="#left-panel" ><img src="icon/filter2.png" height="30px" ></a>
+			<h1>Monster Hunter</h1>
+		</header>
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+		<div data-role="main" id="map" class="ui-content">
+			<div class="map"></div>
+			<div class="add-location2">
+				<a href="#add-location2"> Confess </a>
+			</div>	
+			<div class="modal" id="add-location2">
+				<div class="modal-content">
+					<form id="add-location-form2" class="centered-child">
+						<div id="my-selection2" >
+						    <select id="my-select-nav2" data-role="none">
+								<option value="0">&nbsp; Choose a monster&nbsp; ▾&nbsp; </option>
+						        <option value="1">Lust</option>
+						        <option value="2">Gluttony</option>
+						        <option value="3">Greed</option>
+						        <option value="4">Sloth</option>
+						        <option value="5">Wrath</option>
+						        <option value="6">Envy</option>
+						        <option value="7">Pride</option>
+						    </select>
+						</div>
+						<div class="form-control">
+							<input type="text" class="form-input" id="add-location-name2" placeholder="Address" data-role="none">
+						</div>
+						<div class="form-control">
+							<input class="form-button" type="submit" id="save-location2" value=" &nbsp; Expose New Monster&nbsp;  " data-role="none">
+						</div>
+					</form>
+				</div>
+		</div>
+
+
+
+		</div>
+
+
+
+		<div data-role="panel" id="left-panel" data-theme="none" data-display="overlay">
+	        <ul data-role="listview" data-theme="none" id="my-filter">
+				<li data-role="none">
+					<a href="#allmonster" data-rel="close">Monster List</a>
+				</li>
+				<li data-filtertext="Lust" id="lust" data-role="none">
+					<a href="#lust" class="map-filter" data-filter="type" data-value="Lust">Lust</a>
+				</li>
+				<li data-filtertext="Gluttony" id="gluttony" data-role="none">
+					<a href="#gluttony" class="map-filter" data-filter="type" data-value="Gluttony">Gluttony</a>
+				</li>
+				<li data-filtertext="Greed" id="greed" data-role="none">
+					<a href="#greed" class="map-filter" data-filter="type" data-value="Greed" >Greed</a>
+				</li>
+				<li data-filtertext="Sloth" id="sloth" data-role="none">
+					<a href="#sloth" class="map-filter" data-filter="type" data-value="Sloth">Sloth</a>
+				</li>
+				<li data-filtertext="Wrath" id="wrath" data-role="none">
+					<a href="#wrath" class="map-filter" data-filter="type" data-value="Wrath">Wrath</a>
+				</li>
+				<li data-filtertext="Envy" id="envy" data-role="none">
+					<a href="#envy" class="map-filter" data-filter="type" data-value="Envy">Envy</a>
+				</li>
+				<li data-filtertext="Pride" id="pride" data-role="none">
+					<a href="#pride" class="map-filter" data-filter="type" data-value="Pride">Pride</a>
+				</li>
+				<li data-filtertext="Explore" data-role="none" class="map-filter">
+					<a href="#" >All Monsters</a>
+				</li>
+	        </ul>     
+    	</div>
+
+	</section>
+
+
+
+
+<!--        	Monster Info            -->
+	<section data-role="page" id="list-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Monster Pool</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main">
+			<!-- 			search and filter  -->
+			<div class="animallist-search hearder-bar">
+				<span class="btn-sort">Search</span>
+				<input type="search" class="js-search flex-child" data-role="none">
+				<div class="monsterlist flex-parent row gutters flex">
+				</div>
+				<div class="monstername">
+					<div class="add-animal">
+						<a href="#add-animal"> + </a>
+						<p>Add a new monster type</p>
+					</div>
+				</div>
+			</div>		
+
+		</div>
+
+		<!-- 			add animal form     -->
+
+		<div class="modal" id="add-animal">
+			<div class="modal-back"></div>
+			<div class="modal-content">
+				<form id="add-animal-form" class="modal-content centered-child">
+					<div class="modal-head">Add New Monster Type</div>
+					<div class="form-control">
+						<input type="text" class="form-input" id="add-animal-name" placeholder="Monster Name" data-role="none">
+					</div>
+					<div class="form-control">
+						<input type="text" class="form-input" id="add-animal-info" placeholder="Add monster introdction here" data-role="none">
+					</div>
+					<div class="form-control">
+						<input class="form-button" type="submit" id="save-animal" value="Add" data-role="none">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+<!--        	Monster Locations            -->
+
+	<section data-role="page" id="monster-location-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Monster Profile</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main">
+			<div class="profile-main" style="margin: 10px;"></div>
+			<div class="profile-map"></div>
+		</div>
+		<!-- 	Add now location form -->
+		<div class="modal" id="add-new-location">
+			<div class="modal-back"></div>
+			<form class="modal-content modal-form" data-role="none" id="new-location">
+				<div class="modal-head title-head">Add Confession Form</div>
+				<input type="hidden" id="new-location-lat" data-role="none">
+				<input type="hidden" id="new-location-lng" data-role="none">
+				<div class="form-control">
+					<label for="">Confession</label>
+					<input type="text" data-role="none" id="new-location-description">
+				</div>
+				<input type="submit" data-role="none">
+			</form>
+		</div>
+
+	</section>
+
+
+<!--        	Profile            -->
+
+	<section data-role="page" id="profile-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Profile</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main">
+			<div class="profile-main"></div>
+			<p class="profile-form"> 
+				<button class="btn"><a href="#" class="js-logout">Log Out</a></button>
+			</p>	
+		</div>
+	</section>
+
+
+
+
+</body>
+	
+
+
+<script type="text/template" id="monsterlist-template">
+	<div class="animallist-item flex-child monstername" data-id="<%= id %>" width="50%" align="center">
+		<div class="flex-img">
+			<img src="the<%= img %>" alt="" width="150px">
+		</div>
+		<br>
+		<div class="flex-type">
+			<%= type %>
+		</div>
+		<div class="flex-location">
+			<p><%= locations_count %> Reported Locations</p>
+		</div>		
+	</div>
+</script>
+
+<script type="text/template" id="profile-template">
+	<div>
+		<div>
+			<img src="<%= img %>" alt="" width="150px">
+		</div>
+		<div>
+			<%= name %>
+		</div>
+		<div>
+			<%= email %>
+		</div>
+
+	</div>
+</script>
+
+<script type="text/template" id="animal-profile-template">
+	<div>
+		<div class="animal-header flex-parent">
+			<div class="animal-image flex-none">
+				<img src="<%= img %>" alt="">
+			</div>
+			<div class="animal-info flex-child">
+
+				<div>Type: <%= type %></div>
+				<div>Intro: <%= intro %></div>
+
+		<!-- 		<div>Breed:
+					<%= location %>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</script>
+
+<!-- My Footer -->
+
+<script type="text/template" id="footer-template">
+	<div class="flex-parent">
+		<div class="flex-child">
+			<a href="#main-page"><img id="mapicon" src="icon/map-gray.png" width="40px"></a>
+		</div>
+		<div class="flex-child">
+			<a href="#list-page"><img id="monsterlisticon" src="icon/list.png" width="40px"></a>
+		</div>
+		<div class="flex-child">
+			<a href="#profile-page"><img id="profileicon" src="icon/profile-gray.png" width="40px"></a>
+		</div>
+	</div>
+</script>
+
+<!-- My Footer End-->
+
+
+
+</html>
+

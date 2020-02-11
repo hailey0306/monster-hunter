@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Log In Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" href="css/app.css">
+
+	<script src="lib/js/jquery-2.2.4.min.js"></script>	
+	<script src="lib/apptools.js"></script>
+	<script src="lib/js/dayjs.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!-- AIzaSyDxfJwi7DiW-P0hcjUOxWspFIPdM7H9bdI   copy API Key-->
+
+
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxfJwi7DiW-P0hcjUOxWspFIPdM7H9bdI&callback=initMap"
+    async defer></script>
+
+
+</head>
+<body>
+
+
+
+
+
+<!--        	Login Page             -->
+	<section data-role="page" id="login-page">
+		<img src="images/login.png" class="home-image">
+		<form id="login-form" class="centered-child my-login-form">
+			<div class="alert">&nbsp;</div>
+			<div class="form-control">
+				<input type="text" class="form-input" id="login-username" placeholder="User Name" data-role="none" value="user0">
+			</div>
+			<div class="form-control">
+				<input type="Password" class="form-input" id="login-password" placeholder="Password" data-role="none" value="pass">
+			</div>
+			<div class="form-control">
+				<input class="form-button" type="submit" id="sign-in" value="Sign In" data-role="none">
+			</div>
+		</form>
+	</section>
+
+<!--        	Home             -->
+
+<section data-role="page" id="main-page">
+		<header data-role="header">
+			<a href="#left-panel" ><img src="icon/filter2.png" height="30px" ></a>
+			<h1>Monster Hunter</h1>
+		</header>
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+		<div data-role="main" id="map" class="ui-content">
+			<div class="map"></div>
+			<div class="add-location2">
+				<a href="#add-location2"> Confess </a>
+			</div>
+			<div class="modal" id="add-location2">
+				<div class="modal-back"></div>
+				<div class="modal-content">
+					<!-- <form id="add-location-form2" class="modal-content centered-child"> -->
+						<div id="my-selection2" >
+							<label for="textarea">Choose a monster type:</label>
+						    <select id="my-select-nav" data-role="none" class="my-select-nav" data-mini="true">
+						    </select>
+						</div>
+						<br><br>
+						<div class="form-control">
+							<label for="textarea">Write your confession here:</label>
+							<textarea id="new-confession"></textarea>
+						</div>
+						<div class="form-control">
+							<input class="form-button" type="button" id="save-location2" value=" &nbsp; Make a Confession&nbsp;  " data-role="none">
+						</div>
+
+
+					<!-- </form> -->
+				</div>
+			</div>
+
+			<div class="modal" id="notification">
+			<div class="modal-back"></div>
+			<div class="modal-content" width="80%">
+					<div class="modal-head">Hi there!</div>
+					<div class="modal-hint" style="padding:0.2em 0.5em;">You can tap the location that you saw the monster on the map to make a confession.</div>
+					<div class="form-control">
+						<input class="form-button" type="submit" id="ok" value="OK" data-role="none">
+					</div>
+			</div>
+			</div>
+
+
+
+		</div>
+
+
+
+		<div data-role="panel" id="left-panel" data-theme="none" data-display="overlay">
+			<ul data-role="listview" data-theme="none" class="filter-control" style="margin-bottom: 1em">
+				<li data-role="none"  data-rel="close">
+					Monster List
+				</li>
+			</ul>
+	        <ul data-role="none" data-theme="none" id="my-filter" class="the-filter" id="monster-filter">
+
+
+	        </ul> 
+	        <ul data-role="listview" data-theme="none" class="filter-control" style="margin-top: 2em">
+				<li data-filtertext="Explore" data-role="none" class="map-filter" data-value="all">
+					All Monsters
+				</li>
+			</ul>    
+    	</div>
+
+	</section>
+
+
+
+
+<!--        	Monster Info            -->
+	<section data-role="page" id="list-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Monster Prison</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main">
+			<!-- 			search and filter  -->
+			<div class="animallist-search hearder-bar">
+				<!-- <span class="btn-sort">Search</span> -->
+				<form class="ui-filterable search-form">
+				    <input id="filterBasic-input" class="js-search flex-child" data-type="search" value="search" onfocus="this.value=''">
+				</form>
+				<!-- <input type="search" class="js-search flex-child" data-type="search"> -->
+				<div class="monsterlist flex-parent row gutters flex">
+				</div>
+				<div class="flex-parent row gutters flex">
+					
+				<div class="flex-child monstername">
+					<div class="flex-img add-animal " style="text-align: center;">
+						<a href="#add-animal"> + </a>
+					</div>
+					<div class="add-animal monster-title" style="text-align: center;">
+					<p>Add a new monster type</p>
+										</div>
+				</div>
+				</div>
+			</div>		
+
+		</div>
+
+		<!-- 			add animal form     -->
+
+		<div class="modal" id="add-animal">
+			<div class="modal-back"></div>
+			<div class="modal-content">
+				<form id="add-animal-form" class="modal-form modal-content" data-role="none">
+					<div class="modal-head">Add New Monster Type</div>
+					<div class="form-control">
+						<input type="text" class="form-input" id="add-animal-type" placeholder="Monster Name" data-role="none">
+					</div>
+					<div class="form-control">
+						<input type="text" class="form-input" id="add-animal-info" placeholder="Add monster introduction" data-role="none">
+					</div>
+					
+						<input class="form-button" type="submit" id="save-animal" value="Add" data-role="none">
+					
+				</form>
+			</div>
+		</div>
+
+
+	</section>
+
+<!--        	Monster Locations            -->
+
+	<section data-role="page" id="monster-location-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Monster Profile</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main" class="main-monster">
+			<div class="profile-main" style="margin: 10px;"></div>
+			<div class="profile-content" style="margin: 10px;">
+				
+			</div>
+			<div class="profile-map"></div>
+		</div>
+		<!-- 	Add now location form -->
+		<div class="modal" id="add-new-location">
+			<div class="modal-back"></div>
+			<form class="modal-content modal-form" data-role="none" id="new-location">
+				<div class="modal-head title-head" style="margin-bottom: 20px;">Make a New Confession</div>
+				<input type="hidden" id="new-location-lat" data-role="none">
+				<input type="hidden" id="new-location-lng" data-role="none">
+				<div class="form-control">
+					<input type="text" data-role="none" id="new-location-description" width="100%">
+				</div>
+				<input type="submit" data-role="none" class="form-button" value=" &nbsp; Make a Confession&nbsp; ">
+			</form>
+		</div>
+
+<!--        	Edit confession           -->
+
+		<div class="modal" id="edit-confession">
+			<div class="modal-back"></div>
+			<div class="modal-content"></div>
+		</div>
+
+
+	</section>
+
+
+<!--        	Profile            -->
+
+	<section data-role="page" id="profile-page">
+		<header data-role="header">
+			<a href="#back" data-rel="back" id="back"><img src="icon/back.png" height="25px" ></a>
+			<h1>Profile</h1>
+		</header>
+
+		<footer data-role="footer" data-template="#footer-template"></footer>
+
+
+		<div data-role="main">
+			<div class="profile-main"></div>
+			<p class="profile-form log-out-form"> 
+				<button class="btn" width="80%"><a href="#" class="js-logout" >Log Out</a></button>
+			</p>	
+		</div>
+	</section>
+
+
+</body>
+	
+
+
+<script type="text/template" id="monsterlist-template">
+	<div class="animallist-item flex-child monstername" data-id="<%= id %>" align="center">
+		<div class="flex-img">
+			<img src="the<%= img %>" alt="" width="250px">
+		</div>
+		<br>
+		<div class="monster-title">
+			<div class="flex-type">
+				<%= type %>
+			</div>
+			<div class="flex-location">
+				<p><%= loc_amount %> Reported Locations</p>
+			</div>	</div>
+		</div>
+</script>
+
+<script type="text/template" id="profile-template">
+	<div id="people-profile">
+		<div class="avatar">
+			<img src="<%= img %>" alt="" width="150px" id="OpenImgUpload">
+
+		</div>
+		<br>
+			<input type="text" class="form-input" id="firstName" data-role="none" placeholder="First Name" value="<%= firstName %>">
+			<input type="text" class="form-input" id="lastName" data-role="none" placeholder="Last Name" value="<%= lastName %>">
+			<label class="form-label">Account Information</label>
+			<input type="text" class="form-input" id="userName" data-role="none" placeholder="User Name" value="<%= username %>">
+			<input type="text" class="form-input" id="email" data-role="none" placeholder="Email" value="<%= email %>">
+			<input type="submit" class="btn" value="Save Profile" id="save-profile">
+
+	</div>
+</script>
+
+<script type="text/template" id="animal-profile-template">
+	<div class="animal-header">
+		
+		<div class="animal-info">
+
+			<div id="animal-type"><%= type %></div>
+			<div id="animal-intro"><%= intro %></div>
+
+
+		</div>
+		<div class="animal-image" id="the-animal-img">
+			<img src="<%= img %>" alt="">
+		</div>
+	</div>
+	<div class="animal-description">
+ 
+	</div>
+</script>
+
+<script type="text/template" id="animal-description-template">
+	<div class="flex-parent" >
+		<div style="border-bottom: 1px solid #dedede " id="confession-container">
+			<p width="100%"><%= date %> </p>
+			<p ><%= confession %></p>
+			<p><span style="padding: 0 5px 0 15px" data-activate="#edit-confession" class="js-edit-confession" data-id="<%= id %>" id="edit" > Edit </span> <span> &nbsp; </span> <span id="delete" style="padding: 0 10px" class="js-delete-location" data-id="<%= id %>"> Delete </span></p>
+		</div>
+		
+	</div>
+</script>
+
+<!-- My Footer -->
+
+<script type="text/template" id="footer-template">
+	<div class="flex-parent">
+		<div class="flex-child">
+			<a href="#main-page"><img class="mapicon" src="icon/map-gray.png" width="40px"></a>
+		</div>
+		<div class="flex-child">
+			<a href="#list-page"><img class="monsterlisticon" src="icon/list.png" width="40px"></a>
+		</div>
+		<div class="flex-child">
+			<a href="#profile-page"><img class="profileicon" src="icon/profile-gray.png" width="40px"></a>
+		</div>
+	</div>
+</script>
+
+<!-- My Footer End-->
+
+
+<!-- My Footer End-->
+<script type="text/template" id="edit-confession-form-template">
+	<form class="modal-form" data-role="none" id="edit-confession-form">
+		<div class="form-control">
+			<label>Time: <%= date %></label>
+			<br><br>
+			<label for="edit-confession"><b>Confession</b></label>
+			<input type="text" data-role="none" id="edit-the-confession" value="<%= confession %>">
+			<input type="hidden" id="confession-id" value="<%= id %>">
+		</div>
+		<input class="form-button" type="submit" data-role="none" >
+	</form>
+</script>
+<script type="text/template" id="my-filter-list-template">
+	<li data-filtertext="<%= type %>" id="<%= type %>" data-role="none" class="map-filter" data-filter="type" data-value="<%= type %>"><%= type %></li>
+</script>
+<script type="text/template" id="my-selection-template">
+	<option value="<%= id %>"><%= type %></option>
+</script>
+
+
+
+</html>
+
